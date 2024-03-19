@@ -1,0 +1,21 @@
+.navbar {
+  .navbar-collapse {
+    justify-content: flex-end;
+    align-items: center;
+    width: 100%;
+    .navbar-nav {
+      .nav-item {
+        transition: 0.3s ease-in-out;
+        cursor: pointer;
+        a {
+          &:hover {
+            color: hsl(35, 77%, 62%);
+          }
+        }
+      }
+    }
+  }
+  .active {
+    color: hsl(240, 100%, 5%);
+  }
+}
